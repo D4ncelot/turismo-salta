@@ -119,10 +119,18 @@ div nav ul li a{
   align-items: flex-start;
 }
 
+.mobile-container{
+  padding: 0 0 0 0;
+}
+
 @media screen and (min-width:480px) {
+
   .carousel-inner{
     display:flex;
+    justify-content: center;
+  
   }
+
   .carousel-item{
     display:block;
     margin-right: 0;
@@ -130,6 +138,11 @@ div nav ul li a{
   }
   .img-wrapper{
     height: 23vw;
+  }
+
+  .img-wrapper img{
+    width: 100vw;
+    height: 100%;
   }
 
 }
@@ -144,9 +157,7 @@ div nav ul li a{
   }
 }
 
-.carousel-inner{
-  padding: 1rem;
-}
+
 
 .card{
   margin: 0 .5em;
@@ -176,8 +187,8 @@ div nav ul li a{
 }
 
 .card img{
-  width: 250px;
-  height: 160px;
+  width: 100vw;
+  height: 100%;
   padding: 10px;
 }
 
