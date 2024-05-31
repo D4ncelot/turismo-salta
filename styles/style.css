@@ -9,11 +9,46 @@ li{
   list-style: none;
 }
 
+
+/* Media para mobile */
+
 @media (max-width: 480px) {
-  body{
-    background-color: cyan;
-  };
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .container-logo{
+    display: flex;
+    
+  }
+
+  
+
+  .container-nav nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    
+  }
+
+  .container-nav nav ul li a{
+    font-size: 15px;
+    padding: 15px 15px
+  }
+
+
 }
+
+/* TERMINA MEDIA */
 
 .main-button{
   border: 2px solid #d31820;
