@@ -45,6 +45,45 @@ li{
     padding: 15px 15px
   }
 
+  footer{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-left p{
+    font-weight: bold;
+    font-size: 2rem;
+    color: whitesmoke;
+  }
+
+  .footer-center p, .footer-right p{
+    color: whitesmoke;
+    font-size: 1.5rem;
+  }
+  
+  .footer-center ul, .footer-right ul{
+    padding: 0;
+  }
+
+  .footer-center a, .footer-right a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.1rem;
+  }
+
+  .bi-facebook{
+    color: blue;
+  }
+
+  .bi-instagram{
+    color: orange;
+  }
+
+  .bi-youtube{
+    color: red;
+  }
+
+  
 
 }
 
