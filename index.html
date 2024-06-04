@@ -32,8 +32,30 @@
 
         <section class="principal-page"> <!-- Section con una imagen y una breve descripcion,  ambas deben ir dentro -->
             <img class="principal-bg" src="./src/img/principal-salta.jpeg" alt="Imagen de ciudad de Salta desde el cerro">
+            <div>
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./src/img/principal-salta.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./src/img/principal-bg2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./src/img/principal-bg3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./src/img/principal-bg4.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./src/img/principal-bg5.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                </div>
+            </div>
+
             <article>
-                <p>La ciudad de Salta es una de las maraviilas del norte Argentino, sus paisajes naturales, musica y tradiciones, es perfecta tanto para uno mismo o toda su familia.</p>
+                <p class="principal-sub">La ciudad de Salta es una de las maraviilas del norte Argentino, sus paisajes naturales, musica y tradiciones, es perfecta tanto para uno mismo o toda su familia.</p>
                 <a href="./pages/ciudades.html"><input class="main-button" type="button" value="Saber Mas..."></a>
             </article>
         </section>
@@ -41,6 +63,8 @@
         <section>
 
             <p class="ciudad-titulo">Ciudades</p>
+            
+            <p class="ciudad-sub">Salta "La Linda", es una pronvicia rodeada de ciudades que cada una ofrece una experiencia unica e inolvidable para los turistas. Aqui estan las ciudades mas destacadas.</p>
 
             <!-- Paso a explicar que hice aqui, este contenedor deberia tener un carusel que funciona en mobile, pero esta oculto cuando la pagina se me en escritorio, no tengo la menor idea de porque no funciona en escritorio el carousel, pero bueno, lo intente. -->
 
@@ -94,7 +118,7 @@
                                 <img src="./src/img/iruya.jpg" alt="...">
                             </div>
                             <div class="card-body">
-                                <p>Iruya</p>
+                                <a href=""><p>Iruya</p></a>
                             </div>
                           </div>
                       </div>
@@ -121,7 +145,7 @@
                       <div class="carousel-item">
                         <div class="card">
                             <div class="img-wrapper">
-                                <img src="./src/img/vaqueros.jpg" alt="...">
+                                <img class="img-fixed" src="./src/img/vaqueros.jpg" alt="...">
                             </div>
                             <div class="card-body">
                               <a href=""><p>Vaqueros</p></a>
