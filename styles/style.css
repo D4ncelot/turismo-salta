@@ -553,6 +553,11 @@ div nav ul li a{
     margin: 20px;
   }
 
+  .form-container{
+    max-width: 160vh;
+    padding: 0px 50px 0 40px;
+  }
+
   .form-container form{
     display: flex;
     flex-direction: column;
