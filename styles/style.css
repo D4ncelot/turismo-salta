@@ -136,7 +136,6 @@ div nav ul li a{
  /* Comienza Main */
  /* #d74f4f */
 .principal-page{
-  background-color: #f08080;
   width: 100%;
 }
 
@@ -175,6 +174,30 @@ div nav ul li a{
 
 }
 
+.principal-desk{
+  display:flex;
+  flex-direction: row;
+}
+
+
+.principal-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(240, 128, 128, .7)
+}
+
+.principal-sub{
+  font-size: 1.1rem;
+  color: whitesmoke;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+
+
+
  /* Ciudades */
 
 
@@ -199,7 +222,7 @@ div nav ul li a{
   .carousel-inner{
     display:flex;
     justify-content: center;
-  
+
   }
 
   .carousel-item{
@@ -260,6 +283,11 @@ div nav ul li a{
     display:none;
   }
 
+  .principal-caruselmob{
+    display: none;
+  }
+  
+
 }
 
 .card img{
@@ -299,6 +327,12 @@ div nav ul li a{
   border-radius: 15px;
 }
 
+.ciudad-description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .ciudad-titulo{
   text-align: center;
   font-size: 2rem;
@@ -309,13 +343,17 @@ div nav ul li a{
 }
 
 .ciudad-sub{
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding: 0 5px 10px 5px;
+  font-weight: 700;
+
 }
 
  .ciudad-container a{
   display: flex;
   flex-direction: column;
+  color: red;
+  font-weight: 600;
  }
 
  .ciudad-container a p{
@@ -361,6 +399,17 @@ div nav ul li a{
    text-align: center;
  }
 
+ .footer-left p{
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: whitesmoke;
+}
+
+.footer-center p, .footer-right p{
+  color: whitesmoke;
+  font-size: 1.5rem;
+  }
+
  .footer-center p{
    text-align: center;
    font-weight: bold;
@@ -370,6 +419,28 @@ div nav ul li a{
   font-weight: bold;
   text-align: center;
  }
+
+ .footer-center ul, .footer-right ul{
+  padding: 0;
+}
+
+.footer-center a, .footer-right a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.1rem;
+}
+
+.bi-facebook{
+  color: blue;
+}
+
+.bi-instagram{
+  color: orange;
+}
+
+.bi-youtube{
+  color: red;
+}
 
 
  /* Nav Ciudades */

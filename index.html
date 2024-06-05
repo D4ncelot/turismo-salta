@@ -31,8 +31,7 @@
     <main>
 
         <section class="principal-page"> <!-- Section con una imagen y una breve descripcion,  ambas deben ir dentro -->
-            <img class="principal-bg" src="./src/img/principal-salta.jpeg" alt="Imagen de ciudad de Salta desde el cerro">
-            <div>
+            <div class="principal-caruselmob">
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -54,17 +53,24 @@
                 </div>
             </div>
 
-            <article>
-                <p class="principal-sub">La ciudad de Salta es una de las maraviilas del norte Argentino, sus paisajes naturales, musica y tradiciones, es perfecta tanto para uno mismo o toda su familia.</p>
-                <a href="./pages/ciudades.html"><input class="main-button" type="button" value="Saber Mas..."></a>
-            </article>
+            <div class="principal-desk">
+                <img class="principal-bg" src="./src/img/principal-bg3.jpg" alt="Imagen de ciudad de Salta desde el cerro">
+                <article class="principal-right">
+                    <p class="principal-sub">La ciudad de Salta es una de las maraviilas del norte Argentino, sus paisajes naturales, musica y tradiciones, es perfecta tanto para uno mismo o toda su familia.</p>
+                    <p class="principal-sub">Disfrute del paisajes y distintas actividades para pasar una experiencia unica en la vida, siente la cultura de nuestra ciudad y tranquilidad que ofrece.</p>
+
+                    <a href="./pages/ciudades.html"><input class="main-button" type="button" value="Saber Mas..."></a>
+                </article>
+            </div>
         </section>
 
         <section>
 
-            <p class="ciudad-titulo">Ciudades</p>
+            <div class="ciudad-description">
+                <p class="ciudad-titulo">Ciudades</p>
             
-            <p class="ciudad-sub">Salta "La Linda", es una pronvicia rodeada de ciudades que cada una ofrece una experiencia unica e inolvidable para los turistas. Aqui estan las ciudades mas destacadas.</p>
+                <p class="ciudad-sub">Salta "La Linda", es una pronvicia rodeada de ciudades que cada una ofrece una experiencia unica e inolvidable para los turistas. Aqui estan las ciudades mas destacadas.</p>
+            </div>
 
             <!-- Paso a explicar que hice aqui, este contenedor deberia tener un carusel que funciona en mobile, pero esta oculto cuando la pagina se me en escritorio, no tengo la menor idea de porque no funciona en escritorio el carousel, pero bueno, lo intente. -->
 
