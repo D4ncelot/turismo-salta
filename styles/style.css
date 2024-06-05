@@ -533,8 +533,49 @@ div nav ul li a{
    height: 450px;
  }
 
- /* Contactenos */
+/* Contactenos */
+
+/* MEDIA Contactenos */
+
+@media (max-width: 480px) {
+  .form-page{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-container img{
+    width: 40%;
+    margin: 20px;
+  }
+
+  .form-container form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+ 
+
+  .form-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+ 
+}
+
+ .form-page{
+  background-color: #F9FCF1;
+ }
 
  .form-container{
    display: block;
  }
+
