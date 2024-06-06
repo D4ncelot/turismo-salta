@@ -1,3 +1,6 @@
+/* Para encontrar el CSS de una seccion mas facilmente usar # y el nombre de la pagina */
+/* Por ejemplo: #Contatenos */
+
 *{
   margin: 0;
   padding: 0;
@@ -9,6 +12,10 @@ li{
   list-style: none;
 }
 
+
+/* ----------------------------------- */
+/* ----- #Header y #Footer ----------- */
+/* ----------------------------------- */
 
 /* Media para mobile */
 
@@ -83,6 +90,8 @@ li{
     color: red;
   }
 }
+
+/* Termina Media */
 
 @media (max-width: 780px){
   *{
@@ -164,6 +173,9 @@ div nav ul li a{
   font-weight: bold;
 }
 
+/* ----------------------------------- */
+/* ------------ #index --------------- */
+/* ----------------------------------- */
 
  /* Comienza Main */
  /* #d74f4f */
@@ -268,7 +280,9 @@ div nav ul li a{
 }
 
 
-
+/* ----------------------------------- */
+/* ---------- #ciudades -------------- */
+/* ----------------------------------- */
 
  /* Ciudades */
 
@@ -604,6 +618,10 @@ div nav ul li a{
    padding-bottom: 20px;
  }
 
+
+/* ----------------------------------- */
+/* ------------- #lugares ------------ */
+/* ----------------------------------- */
  
  /* Lugares Turisticos*/
  /* Deberia quedar como el moqups*/
@@ -611,7 +629,7 @@ div nav ul li a{
 
  
  
-
+/* Media para Mobile */
  @media (max-width: 480px){
   main h1{
     font-weight: bolder;
@@ -624,6 +642,7 @@ div nav ul li a{
     align-items: center;
     border: 2px red dashed;
     margin: 10px 20px;
+    background-color: #F9FCF1;
   }
 
   .l-container{
@@ -636,11 +655,11 @@ div nav ul li a{
     padding: 0 5px;
   }
 
-  .l-container h3, .l-container p, .l-container .main-button{
+  .l-container h2, .l-container p, .l-container .main-button{
     margin: 10px 0;
   }
 
-  .l-container h3{
+  .l-container h2{
     font-weight: bolder;
   }
 
@@ -666,12 +685,107 @@ div nav ul li a{
 
   
  }
+ /* Termina Media */
 
- .lug-img{
-  max-width: 100%;
-  width: 100vw;
-  height: 450px;
+ /* Media Tablet*/
+@media (min-width:481px) and (max-width:780px){
+
+  .carusel-turismo{
+    display: none;
+  }
+
+  .lug-container{
+    border: 2px red dashed;
+    margin: 20px 15px;
+    background-color: #F9FCF1;
+  }
+
+  .l-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .r-container{
+    margin: 15px 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .lug-img{
+    max-width: 50vw;
+  }
+
+  .l-container p{
+    padding: 0 5px;
+  }
+
+  .l-container h2, .l-container p, .l-container .main-button{
+    margin: 10px 0;
+  }
+
+  .l-container h2{
+    font-weight: bolder;
+  }
+
 }
+/* Termina Media */
+
+/* Media para escritorio */
+@media (min-width:781px){
+  .carusel-turismo{
+    display: none;
+  }
+
+  .lug-container{
+    border: 2px red dashed;
+    margin: 20px 15px;
+    background-color: #F9FCF1;
+  }
+
+  .l-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .r-container{
+    margin: 15px 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .r-container iframe{
+    width: 500px;
+    height: auto;
+  }
+
+  .lug-img{
+    max-width: 50vw;
+  }
+
+  .l-container p{
+    padding: 0 5px;
+  }
+
+  .l-container h2, .l-container p, .l-container .main-button{
+    margin: 10px 0;
+  }
+
+  .l-container h2{
+    font-weight: bolder;
+  }
+
+}
+/* Termina Media */
+
+/* ----------------------------------- */
+/* ---------- #Contactenos ----------- */
+/* ----------------------------------- */
 
 /* Contactenos */
 
