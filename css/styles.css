@@ -13,8 +13,14 @@ a {
   text-decoration: none;
 }
 
-.principal-bg {
-  display: none;
+.main-button {
+  border: 2px solid #d31820;
+  background-color: #dc143c;
+  color: white;
+  font-weight: bolder;
+  border-radius: 18px;
+  padding: 7px;
+  margin: 5px;
 }
 
 header {
@@ -129,7 +135,81 @@ footer .footer-right ul li a .bi-youtube {
   color: red;
 }
 
-main {
+main .principal-desk .principal-bg {
+  display: none;
+}
+main .principal-desk .principal-right {
+  background-color: rgba(240, 128, 128, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+main .principal-desk .principal-right .principal-sub {
+  font-size: 1.1rem;
+  color: whitesmoke;
+  font-weight: bolder;
+  padding: 10px;
+}
+
+section .ciudad-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section .ciudad-description .ciudad-titulo {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 20px 20px 10px 20px;
+  color: #d31820;
+}
+section .ciudad-description .ciudad-sub {
+  font-size: 1rem;
+  padding: 0 5px 10px 5px;
+  font-weight: 700;
+  text-align: center;
+}
+section .mobile-container {
+  padding: 0 0 0 0;
+}
+section .mobile-container #carouselExample .carousel-inner {
+  display: flex;
+  justify-content: center;
+}
+section .mobile-container #carouselExample .carousel-inner .carousel-item {
+  margin-right: 0;
+  flex: 0 0 33.3333333333%;
+}
+section .mobile-container #carouselExample .carousel-inner .carousel-item .card {
+  margin: 0 0.5em 0.8em 0.5em;
+}
+section .mobile-container #carouselExample .carousel-inner .carousel-item .card .img-wrapper {
+  max-width: 100%;
+  height: 17em;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 80vh;
+}
+section .mobile-container #carouselExample .carousel-inner .carousel-item .card .img-wrapper img {
+  width: 150vh;
+  height: 100%;
+  padding: 10px;
+}
+section .mobile-container #carouselExample .carousel-inner .carousel-item .card .card-body {
+  display: flex;
+  justify-content: center;
+}
+section .mobile-container #carouselExample .carousel-inner .carousel-item .card .card-body a {
+  text-decoration: none;
+  color: #d31820;
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding: 10px 0 0 0;
+}
+section .card-container {
   display: none;
 }
 

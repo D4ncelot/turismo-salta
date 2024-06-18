@@ -1,3 +1,107 @@
 main{
-    display:none;
+    // .principal-page{
+    //     .principal-caruselmob{
+            
+    //         #carouselExampleAutoplaying{
+                
+    //             .carousel-inner{
+    //                 .carrousel-item{
+    //                     max-height: 300px;
+    //                     height: 200px;
+
+                        
+    //                 }
+    //             }
+    //         }
+
+    //     }
+    // }
+    .principal-desk{
+        .principal-bg{
+            display:none;
+        }
+        .principal-right{
+            background-color: $secondary-color;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            .principal-sub{
+                font-size: 1.1rem;
+                color: whitesmoke;
+                font-weight: bolder;
+                padding: 10px;
+            }
+        }
+    }
+}
+
+section{
+    .ciudad-description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .ciudad-titulo{
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            padding: 20px 20px 10px 20px;
+            color:#d31820;
+        }
+        .ciudad-sub{
+            font-size: 1rem;
+            padding: 0 5px 10px 5px;
+            font-weight: 700;
+            text-align: center;
+        }
+    }
+
+    .mobile-container{
+        padding: 0 0 0 0;
+        #carouselExample{
+            .carousel-inner{
+                display:flex;
+                justify-content: center;
+                .carousel-item{
+                    // display:block;
+                    margin-right: 0;
+                    flex: 0 0 calc(100%/3);
+                    .card{
+                        margin: 0 .5em .8em .5em;
+                        .img-wrapper{
+                            max-width: 100%;
+                            height: 17em;
+                            display: flex;
+                            justify-content: center;
+                            align-items: flex-start;
+                            height: 80vh;
+                            img{
+                                
+                                width: 150vh;
+                                height: 100%;
+                                padding: 10px;
+                            }
+                            
+                        }
+                        .card-body{
+                            display: flex;
+                            justify-content: center;
+                            a{
+                                text-decoration: none;
+                                color:#d31820;
+                                font-weight: bold;
+                                font-size: 1.4rem;
+                                padding: 10px 0 0 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .card-container{
+        display: none;
+    }
 }

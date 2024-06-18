@@ -20,7 +20,7 @@ li{
 /* Media para mobile */
 
 @media (max-width: 480px) {
-  *{
+  /* *{
     margin: 0;
     padding: 0;
   }
@@ -50,7 +50,7 @@ li{
   .container-nav nav ul li a{
     font-size: 3vw;
     padding: 15px 15px
-  }
+  } */
 
   footer{
     display: flex;
