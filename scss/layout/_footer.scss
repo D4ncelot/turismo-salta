@@ -1,0 +1,75 @@
+// Listo el Mobile First, falta MediaQuery
+
+footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $principal-color;
+    .footer-left{
+        max-width: 100%;
+        img{
+                width: 200px;
+                height: 100px;
+                padding: 10px;
+        }
+        
+        p{
+            font-weight: bold;
+            font-size: 2rem;
+            color: whitesmoke;
+            text-align: center;
+        }
+    }
+    .footer-center{
+        display: flex;
+        flex-direction: column;
+        p{
+            text-align: center;
+            font-weight: bold;
+            color:whitesmoke;
+            font-size: 1.5rem;
+        }
+        ul{
+            padding: 0;
+            li{
+                a{
+                    text-decoration: none;
+                    color: whitesmoke;
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+    .footer-right{
+        p{
+            text-align: center;
+            font-weight: bold;
+            color:whitesmoke;
+            font-size: 1.5rem;
+        }
+        ul{
+            padding: 0;
+            li{
+                a{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    color: whitesmoke;
+                    font-size: 1.1rem;
+                    .bi-facebook{
+                        color: blue;
+                    }
+                    .bi-instagram{
+                        color: orange;
+                    }
+                    .bi-youtube{
+                        color: red;
+                    }
+
+                }
+            }
+        }
+    }
+}

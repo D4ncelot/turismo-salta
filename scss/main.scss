@@ -1,0 +1,14 @@
+// Import de archivos.
+// Atencion: Cuidado con el orden.
+
+// Archivos base
+@import "./base";
+
+// Import Componentes
+
+// Import Layout
+@import "./layout/header";
+@import "./layout/footer";
+
+// Import Pages
+@import "./pages/index"
