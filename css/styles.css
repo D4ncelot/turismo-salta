@@ -213,6 +213,72 @@ section .card-container {
   display: none;
 }
 
+main .titulo-lugar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .titulo-lugar h1 {
+  font-weight: bolder;
+}
+main .titulo-lugar p {
+  font-weight: 600;
+  padding: 10px;
+}
+main .lug-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px red dashed;
+  margin: 10px 20px;
+  background-color: #F9FCF1;
+}
+main .lug-container .l-container {
+  display: Flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .lug-container .l-container h2 {
+  margin: 10px 0;
+  font-weight: bolder;
+}
+main .lug-container .l-container .carusel-turismo #carouselExampleAutoplaying .carousel-inner .carousel-item img {
+  width: 100vw;
+  max-width: 100%;
+  height: 270px;
+}
+main .lug-container .l-container .carusel-turismo #carouselExampleAutoplaying2 .carousel-inner .carousel-item img {
+  width: 100vw;
+  max-width: 100%;
+  height: 270px;
+}
+main .lug-container .l-container .carusel-turismo #carouselExampleAutoplaying3 .carousel-inner .carousel-item img {
+  width: 100vw;
+  max-width: 100%;
+  height: 270px;
+}
+main .lug-container .l-container p {
+  margin: 10px 0;
+  padding: 0 5px;
+}
+main .lug-container .l-container .main-button {
+  margin: 10px 0;
+}
+main .lug-container .r-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .lug-container .r-container .lug-img {
+  display: none;
+}
+main .lug-container .r-container .iframe {
+  margin: 30px 0;
+}
+
 .form-page {
   background-color: #F9FCF1;
   display: flex;
