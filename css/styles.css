@@ -293,7 +293,7 @@ section .mobile-container #carouselExample .carousel-inner .carousel-item .card 
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  height: 80vh;
+  height: 50vw;
 }
 section .mobile-container #carouselExample .carousel-inner .carousel-item .card .img-wrapper img {
   width: 300px;
