@@ -1,10 +1,7 @@
 // Listo el Mobile First, falta MediaQuery
 
 footer{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flex-center(column);
     background-color: $principal-color;
     .footer-left{
         max-width: 100%;
@@ -71,5 +68,20 @@ footer{
                 }
             }
         }
+    }
+    @include mq-tablet{
+        background-color: $principal-color;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    @include mq-desktop{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 }

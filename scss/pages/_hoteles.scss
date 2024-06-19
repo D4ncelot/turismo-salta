@@ -1,0 +1,17 @@
+main{
+    h1{
+        text-align: center;
+        color: red;
+    }
+    .hot-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h3{
+            color: $principal-color;
+            font-weight: 500;
+        }
+
+    }
+}
