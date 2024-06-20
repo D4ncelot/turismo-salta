@@ -1,20 +1,35 @@
 main{
-    .principal-desk{
-        .principal-bg{
-            display:none;
+    .principal-page{
+        .principal-caruselmob{
+            #carouselExampleAutoplaying{
+                .carousel-inner{
+                    .carousel-item{
+                        img{
+                            height: 50vw !important;
+                        }
+                    }
+                }
+            }
         }
-        .principal-right{
-            background-color: $secondary-color;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 10px;
-            .principal-sub{
-                font-size: 1.1rem;
-                color: whitesmoke;
-                font-weight: bolder;
+    
+
+        .principal-desk{
+            .principal-bg{
+                display:none;
+            }
+            .principal-right{
+                background-color: $secondary-color;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
                 padding: 10px;
+                .principal-sub{
+                    font-size: 1.1rem;
+                    color: whitesmoke;
+                    font-weight: bolder;
+                    padding: 10px;
+                }
             }
         }
     }
@@ -31,6 +46,17 @@ main{
         .principal-page{
             display: flex;
             flex: 1 1 0;
+            .principal-caruselmob{
+                #carouselExampleAutoplaying{
+                    .carousel-inner{
+                        .carousel-item{
+                            img{
+                                width: 60vw !important;
+                            }
+                        }
+                    }
+                }
+            }
         }
         .principal-desk{
             .principal-right{

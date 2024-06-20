@@ -192,13 +192,19 @@ footer .footer-right ul li a {
   font-size: 1.1rem;
 }
 footer .footer-right ul li a .bi-facebook {
+  padding-right: 5px;
   color: blue;
 }
 footer .footer-right ul li a .bi-instagram {
+  padding-right: 5px;
   color: orange;
 }
 footer .footer-right ul li a .bi-youtube {
+  padding-right: 5px;
   color: red;
+}
+footer .footer-right ul li a .bi-inbox {
+  padding-right: 5px;
 }
 @media (min-width: 768px) {
   footer {
@@ -219,10 +225,13 @@ footer .footer-right ul li a .bi-youtube {
   }
 }
 
-main .principal-desk .principal-bg {
+main .principal-page .principal-caruselmob #carouselExampleAutoplaying .carousel-inner .carousel-item img {
+  height: 50vw !important;
+}
+main .principal-page .principal-desk .principal-bg {
   display: none;
 }
-main .principal-desk .principal-right {
+main .principal-page .principal-desk .principal-right {
   background-color: rgba(240, 128, 128, 0.7);
   display: flex;
   flex-direction: column;
@@ -230,7 +239,7 @@ main .principal-desk .principal-right {
   align-items: center;
   padding: 10px;
 }
-main .principal-desk .principal-right .principal-sub {
+main .principal-page .principal-desk .principal-right .principal-sub {
   font-size: 1.1rem;
   color: whitesmoke;
   font-weight: bolder;
@@ -245,6 +254,9 @@ main .principal-desk .principal-right .principal-sub {
   main .principal-page {
     display: flex;
     flex: 1 1 0;
+  }
+  main .principal-page .principal-caruselmob #carouselExampleAutoplaying .carousel-inner .carousel-item img {
+    width: 60vw !important;
   }
   main .principal-desk .principal-right {
     max-width: 50vw;
