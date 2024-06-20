@@ -1,0 +1,48 @@
+main{
+    p{
+
+    }
+    .city-container{
+        border: 4px solid $principal-color;
+        border-radius: 10px;
+        margin: 5px 10px;
+        padding: 5px;
+        @include flex-center(column);
+        background-color: beige;
+        margin-bottom: 20px;
+        div{
+            h2{
+                color: $principal-color;
+                font-weight: bolder;
+            }
+        }
+        .city-container2{
+            @include flex-center(column);
+            .city-left{
+                @include flex-center(column);
+                .foto-ciudad{
+                    width: 100%;
+                    padding-bottom: 20px;
+                }
+                iframe{
+                    padding-bottom: 10px;
+                }
+            }
+            .city-right{
+                @include flex-center(column);
+                .act-buttons{
+                    display: flex;
+                    flex-direction: column;
+                    ul{
+                        
+                        i{
+                            color: orange;
+                            padding-right: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}

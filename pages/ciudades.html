@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../styles/style.css">
+    <!-- <link rel="stylesheet" href="../styles/style.css"> -->
+     <link rel="stylesheet" href="../css/styles.css">
     <title>Turismo Salta</title>
 </head>
 <body>
 
     <header>
-        <div> <!-- Logo y nombre "Salta" -->
+        <div class="container-logo"> <!-- Logo y nombre "Salta" -->
             <a href="../index.html"><img class="logo" src="../src/img/salta-logo.png" alt="Logo de la Pagina"></a>
         </div>
 
@@ -32,7 +33,7 @@
 
         <h1>Ciudades</h1>
         <!-- Breve descripcion sobre el interes turistico, a realizar -->
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique corporis nesciunt ipsa porro magnam praesentium nobis voluptas sunt, numquam consequatur adipisci possimus blanditiis aliquid, dicta quasi maxime, obcaecati iste nihil!</p>
+        <p>Salta, en el noroeste de Argentina, es un tesoro de belleza turística que cautiva a los visitantes con su diversidad y encanto. A continuación, presentamos algunas de las ciudades más destacadas que recorren esta región:</p>
 
         <!--- Cada div debe poder moverse con una flecha, asi cambian a otra ciudad -->
         <div class="city-container">
@@ -45,7 +46,7 @@
                     <!-- Deberian haber mas imagenes para que se puedan correr con flechas como en el moqups-->
                     <img class="foto-ciudad" src="../src/img/salta-capital.png" alt="Foto de la ciudad capital de Salta">
 
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7038.089024173182!2d-65.41488057106038!3d-24.78996180162681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3a35151b7f9%3A0xa5cd992cd587f206!2sSalta!5e0!3m2!1ses-419!2sar!4v1715168902424!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115903.41005611097!2d-65.43062865!3d-24.7960848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3a35151b7f9%3A0xa5cd992cd587f206!2sSalta!5e0!3m2!1ses-419!2sar!4v1718887403119!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                 </div>
 
@@ -53,7 +54,7 @@
 
                     <!-- Breve descripcion de la ciudad-->
                     <h3>Descripcion:</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci cumque minima quibusdam a expedita, illum fugit illo perspiciatis doloremque. Modi qui quas repudiandae alias quibusdam nihil laudantium enim rem aspernatur.</p>
+                    <p>Salta, conocida como “La Linda”, es la capital de la provincia homónima en el noroeste de Argentina. Esta ciudad colonial, con sus calles empedradas y edificios históricos, te transporta a otra época. La Plaza 9 de Julio, rodeada de arquitectura impresionante, es un punto de partida perfecto para explorar la ciudad. Además, Salta ofrece una rica vida cultural, con museos, peñas folclóricas y una gastronomía deliciosa. No te pierdas la oportunidad de disfrutar de las vistas panorámicas desde el Cerro San Bernardo.</p>
 
                     <div class="act-buttons">
 
@@ -61,10 +62,10 @@
                             <h3>Actividades</h3>
                             <!-- Aqui deberia ir un icono y el nombre de la actividad solamente-->
                             <ul>
-                                <li>Nombre Actividad</li>
-                                <li>Nombre Actividad</li>
-                                <li>Nombre Actividad</li>
-                                <li>Nombre Actividad</li>
+                                <li><i class="bi bi-flag-fill"></i>Plaza 9 de Julio</li>
+                                <li><i class="bi bi-flag-fill"></i>Museo de Arqueología de Alta Montaña (MAAM)</li>
+                                <li><i class="bi bi-flag-fill"></i>Monumento al General Güemes</li>
+                                <li><i class="bi bi-flag-fill"></i>Convento de San Bernardo</li>
                             </ul>
 
                         </div>
@@ -85,6 +86,372 @@
             </div>
 
         </div>
+
+        <!-- Segunda Ciudad -->
+        <div class="city-container">
+            
+            <div><h2>Campo Quijano</h2></div>
+
+            <div class="city-container2">
+
+                <div class="city-left" id="quijano">
+                    <!-- Deberian haber mas imagenes para que se puedan correr con flechas como en el moqups-->
+                    <img class="foto-ciudad" src="../src/img/campo-quijano.jpg" alt="Foto de la ciudad capital de Salta">
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14474.233535598982!2d-65.6396326!3d-24.91304095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941be516be38b5f7%3A0x9bf5db3fab2ab4b1!2sCampo%20Quijano%2C%20Salta!5e0!3m2!1ses-419!2sar!4v1718851943766!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+
+                <div class="city-right">
+
+                    <!-- Breve descripcion de la ciudad-->
+                    <h3>Descripcion:</h3>
+                    <p>Campo Quijano, también conocido como “La Estación”, es un pintoresco pueblo ubicado en la provincia de Salta, Argentina. Rodeado de montañas y paisajes impresionantes, este lugar ofrece una atmósfera tranquila y acogedora. Sus calles empedradas, casas de estilo colonial y la estación de tren histórica evocan un encanto nostálgico. Los visitantes pueden disfrutar de actividades al aire libre, como senderismo, y explorar la belleza natural de los alrededores. Campo Quijano es un destino ideal para aquellos que buscan desconectar y sumergirse en la autenticidad de la región.</p>
+
+                    <div class="act-buttons">
+
+                        <div class="l-actividades">
+                            <h3>Actividades</h3>
+                            <!-- Aqui deberia ir un icono y el nombre de la actividad solamente-->
+                            <ul>
+                                <li><i class="bi bi-flag-fill"></i>Visita a la Estación de Tren</li>
+                                <li><i class="bi bi-flag-fill"></i>Feria de Artesanos</li>
+                                <li><i class="bi bi-flag-fill"></i>Paseo a Caballo</li>
+                                <li><i class="bi bi-flag-fill"></i>Degustación de Productos Locales</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="r-buttons">
+
+                            <a href="#"><input class="main-button" type="button" value="Mas Informacion"></a>
+    
+                            <a href="#"><input class="main-button" type="button" value="Pagina Oficial de la Ciudad"></a>
+                        
+                        </div>
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Tercera Ciudad -->
+        <div class="city-container">
+            
+            <div><h2>Cayafate</h2></div>
+
+            <div class="city-container2">
+
+                <div class="city-left" id="cafayate">
+                    <!-- Deberian haber mas imagenes para que se puedan correr con flechas como en el moqups-->
+                    <img class="foto-ciudad" src="../src/img/cafayate-v2.jpg" alt="Foto de la ciudad capital de Salta">
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14335.596327128722!2d-65.97539599999999!3d-26.069554349999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941f311369c3a61b%3A0x540e61c61f3a5d0c!2sCafayate%2C%20Salta!5e0!3m2!1ses-419!2sar!4v1718887367880!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+
+                <div class="city-right">
+
+                    <!-- Breve descripcion de la ciudad-->
+                    <h3>Descripcion:</h3>
+                    <p>Cafayate, situada en el sudoeste de la provincia de Salta, es una localidad encantadora en los Valles Calchaquíes, región noroeste de Argentina. Como cabecera del departamento de Cafayate, es famosa por la calidad de los vinos que allí se producen. Sus viñedos, paisajes desérticos y formaciones rocosas únicas atraen a los visitantes.</p>
+
+                    <div class="act-buttons">
+
+                        <div class="l-actividades">
+                            <h3>Actividades</h3>
+                            <!-- Aqui deberia ir un icono y el nombre de la actividad solamente-->
+                            <ul>
+                                <li><i class="bi bi-flag-fill"></i>Catas de Vinos</li>
+                                <li><i class="bi bi-flag-fill"></i>Recorridos por la Naturaleza</li>
+                                <li><i class="bi bi-flag-fill"></i>laza Principal y Artesanos</li>
+                                <li><i class="bi bi-flag-fill"></i>Gastronomía Tradicional</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="r-buttons">
+
+                            <a href="#"><input class="main-button" type="button" value="Mas Informacion"></a>
+    
+                            <a href="#"><input class="main-button" type="button" value="Pagina Oficial de la Ciudad"></a>
+                        
+                        </div>
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Cuarta Ciudad -->
+        <div class="city-container">
+            
+            <div><h2>Cachi</h2></div>
+
+            <div class="city-container2">
+
+                <div class="city-left" id="cachi">
+                    <!-- Deberian haber mas imagenes para que se puedan correr con flechas como en el moqups-->
+                    <img class="foto-ciudad" src="../src/img/cachi.jpg" alt="Foto de la ciudad capital de Salta">
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14449.651723505795!2d-66.17754656576865!3d-25.12172676604698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941c1e4204b94777%3A0xccc41c5fd8265045!2sCachi%2C%20Salta!5e0!3m2!1ses-419!2sar!4v1718888000823!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+
+                <div class="city-right">
+
+                    <!-- Breve descripcion de la ciudad-->
+                    <h3>Descripcion:</h3>
+                    <p>Cachi es una pequeña localidad ubicada en los Valles Calchaquíes, en la provincia de Salta, Argentina. Está rodeada de imponentes montañas de más de 5,000 metros de altura, muchas de ellas nevadas. Estas cumbres hacen que Cachi sea un destino ideal para el montañismo y el senderismo. Además, su estilo colonial, calles adoquinadas y casas con bases de piedra y techos de cardón o caña la convierten en un lugar pintoresco y atractivo.</p>
+
+                    <div class="act-buttons">
+
+                        <div class="l-actividades">
+                            <h3>Actividades</h3>
+                            <!-- Aqui deberia ir un icono y el nombre de la actividad solamente-->
+                            <ul>
+                                <li><i class="bi bi-flag-fill"></i>Parque Nacional Los Cardones</li>
+                                <li><i class="bi bi-flag-fill"></i>Museo Arqueológico Pio Pablo Díaz</li>
+                                <li><i class="bi bi-flag-fill"></i>La Recta de Tin Tin</li>
+                                <li><i class="bi bi-flag-fill"></i>Nombre Actividad</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="r-buttons">
+
+                            <a href="#"><input class="main-button" type="button" value="Mas Informacion"></a>
+    
+                            <a href="#"><input class="main-button" type="button" value="Pagina Oficial de la Ciudad"></a>
+                        
+                        </div>
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Quinta Ciudad -->
+        <div class="city-container">
+            
+            <div><h2>Iruya</h2></div>
+
+            <div class="city-container2">
+
+                <div class="city-left" id="iruya">
+                    <!-- Deberian haber mas imagenes para que se puedan correr con flechas como en el moqups-->
+                    <img class="foto-ciudad" src="../src/img/iruya.jpg" alt="Foto de la ciudad capital de Salta">
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7356.7044868363655!2d-65.21709809999999!3d-22.7894083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x940456eb1dc1f4b5%3A0xafc3aef6c01e4139!2sIruya%2C%20Salta!5e0!3m2!1ses-419!2sar!4v1718887827872!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+
+                <div class="city-right">
+
+                    <!-- Breve descripcion de la ciudad-->
+                    <h3>Descripcion:</h3>
+                    <p>Iruya, un tesoro escondido en la provincia de Salta, Argentina, es un pueblo de montaña que parece detenido en el tiempo. Sus calles empedradas, casas de adobe y tejados de paja crean una atmósfera única y auténtica. Rodeado de majestuosas montañas y valles, Iruya ofrece vistas panorámicas impresionantes. Los visitantes pueden explorar sus alrededores a través de caminatas, visitar la Iglesia de San Isidro Labrador y sumergirse en la cultura local. Es un destino para aquellos que buscan tranquilidad, belleza natural y una experiencia fuera de lo común.</p>
+
+                    <div class="act-buttons">
+
+                        <div class="l-actividades">
+                            <h3>Actividades</h3>
+                            <!-- Aqui deberia ir un icono y el nombre de la actividad solamente-->
+                            <ul>
+                                <li><i class="bi bi-flag-fill"></i>Mirador El Cóndor</li>
+                                <li><i class="bi bi-flag-fill"></i>Mirador de la Cruz</li>
+                                <li><i class="bi bi-flag-fill"></i>Río Iruya</li>
+                                <li><i class="bi bi-flag-fill"></i>Iglesia Nuestra Señora del Rosario y San Roque</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="r-buttons">
+
+                            <a href="#"><input class="main-button" type="button" value="Mas Informacion"></a>
+    
+                            <a href="#"><input class="main-button" type="button" value="Pagina Oficial de la Ciudad"></a>
+                        
+                        </div>
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Sexta Ciudad -->
+        <div class="city-container">
+            
+            <div><h2>Rosario de Lerma</h2></div>
+
+            <div class="city-container2">
+
+                <div class="city-left" id="rosario">
+                    <!-- Deberian haber mas imagenes para que se puedan correr con flechas como en el moqups-->
+                    <img class="foto-ciudad" src="../src/img/rosario-de-lerma.jpg" alt="Foto de la ciudad capital de Salta">
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28932.740059514384!2d-65.58458875!3d-24.979975149999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941be3e383e16d29%3A0x5cd67c48235319c0!2sRosario%20de%20Lerma%2C%20Salta!5e0!3m2!1ses-419!2sar!4v1718888658121!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+
+                <div class="city-right">
+
+                    <!-- Breve descripcion de la ciudad-->
+                    <h3>Descripcion:</h3>
+                    <p>Rosario de Lerma es una localidad ubicada en el noroeste de Argentina, en la Provincia de Salta. Es la cabecera del departamento homónimo y se encuentra a 37 km de la Ciudad de Salta, capital de la provincia. El territorio de Rosario de Lerma está surcado de norte a sur por el río Rosario.</p>
+
+                    <div class="act-buttons">
+
+                        <div class="l-actividades">
+                            <h3>Actividades</h3>
+                            <!-- Aqui deberia ir un icono y el nombre de la actividad solamente-->
+                            <ul>
+                                <li><i class="bi bi-flag-fill"></i>El Alfarcito</li>
+                                <li><i class="bi bi-flag-fill"></i>Centro de Convenciones Salta</li>
+                                <li><i class="bi bi-flag-fill"></i>Sociedad Rural Salteña</li>
+                                <li><i class="bi bi-flag-fill"></i>Parroquia Santa Rita De Casia</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="r-buttons">
+
+                            <a href="#"><input class="main-button" type="button" value="Mas Informacion"></a>
+    
+                            <a href="#"><input class="main-button" type="button" value="Pagina Oficial de la Ciudad"></a>
+                        
+                        </div>
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Septima Ciudad -->
+        <div class="city-container">
+            
+            <div><h2>San Antonio de los Cobres</h2></div>
+
+            <div class="city-container2">
+
+                <div class="city-left" id="antonio">
+                    <!-- Deberian haber mas imagenes para que se puedan correr con flechas como en el moqups-->
+                    <img class="foto-ciudad" src="../src/img/cobres.jpeg" alt="Foto de la ciudad capital de Salta">
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29110.22460680219!2d-66.31856805!3d-24.21455085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941cec19a050ee49%3A0x6b8669f7771473fe!2sSan%20Antonio%20de%20los%20Cobres%2C%20Salta!5e0!3m2!1ses-419!2sar!4v1718888986585!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+
+                <div class="city-right">
+
+                    <!-- Breve descripcion de la ciudad-->
+                    <h3>Descripcion:</h3>
+                    <p>San Antonio de los Cobres es una ciudad ubicada en el centro-oeste de la provincia de Salta, Argentina, y es la cabecera del departamento Los Andes. Su altitud de 3,775 metros sobre el nivel del mar la convierte en el centro urbano más elevado del país, después de El Aguilar en la provincia de Jujuy. Rodeada de cerros y en una zona árida de la Puna, San Antonio de los Cobres es famosa por ser parte del recorrido del Tren a las Nubes. Su clima es seco y frío, con vientos fuertes y constantes, especialmente durante los meses invernales. El nombre de la ciudad proviene de la combinación de San Antonio, protector de mulas y patrono de arrieros y viajeros, con la cercanía de la sierra de Cobre, rica en este mineral.</p>
+
+                    <div class="act-buttons">
+
+                        <div class="l-actividades">
+                            <h3>Actividades</h3>
+                            <!-- Aqui deberia ir un icono y el nombre de la actividad solamente-->
+                            <ul>
+                                <li><i class="bi bi-flag-fill"></i>Viaducto de la Polvorilla</li>
+                                <li><i class="bi bi-flag-fill"></i>Paseo con Llamas</li>
+                                <li><i class="bi bi-flag-fill"></i>Abra Blanca</li>
+                                <li><i class="bi bi-flag-fill"></i>La Iglesia de San Antonio de Padua</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="r-buttons">
+
+                            <a href="#"><input class="main-button" type="button" value="Mas Informacion"></a>
+    
+                            <a href="#"><input class="main-button" type="button" value="Pagina Oficial de la Ciudad"></a>
+                        
+                        </div>
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Octava Ciudad -->
+        <div class="city-container">
+            
+            <div><h2>Vaqueros</h2></div>
+
+            <div class="city-container2">
+
+                <div class="city-left" id="vaqueros">
+                    <!-- Deberian haber mas imagenes para que se puedan correr con flechas como en el moqups-->
+                    <img class="foto-ciudad" src="../src/img/vaqueros.jpg" alt="Foto de la ciudad capital de Salta">
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28999.345653955217!2d-65.41094245000001!3d-24.695338299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc103322e027d%3A0x81b27f4bbc79afcd!2sVaqueros%2C%20Salta!5e0!3m2!1ses-419!2sar!4v1718889102611!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+
+                <div class="city-right">
+
+                    <!-- Breve descripcion de la ciudad-->
+                    <h3>Descripcion:</h3>
+                    <p>Vaqueros, en la provincia de Salta, es un lugar con una rica historia. Su nombre proviene del antiguo dueño de esas tierras, Don Francisco Vaquero, y su familia, quienes allá por el año 1690 sentaron las bases de la agricultura y la ganadería en la región. En aquel entonces, Vaqueros se convirtió en el polo productivo más importante para la molienda de cereales en los alrededores de la Ciudad de Salta. Actualmente, es una apacible villa veraniega ubicada a solo 15 minutos de Salta Capital. Sus casas de veraneo y cabañas están pensadas para disfrutar de actividades al aire libre, y el río Vaqueros es un paseo característico para las familias salteñas que buscan el frescor de sus aguas en el verano.</p>
+
+                    <div class="act-buttons">
+
+                        <div class="l-actividades">
+                            <h3>Actividades</h3>
+                            <!-- Aqui deberia ir un icono y el nombre de la actividad solamente-->
+                            <ul>
+                                <li><i class="bi bi-flag-fill"></i>Feria de los Sábados</li>
+                                <li><i class="bi bi-flag-fill"></i>Cabalgatas</li>
+                                <li><i class="bi bi-flag-fill"></i>Senderismo</li>
+                                <li><i class="bi bi-flag-fill"></i>Cicloturismo</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="r-buttons">
+
+                            <a href="#"><input class="main-button" type="button" value="Mas Informacion"></a>
+    
+                            <a href="#"><input class="main-button" type="button" value="Pagina Oficial de la Ciudad"></a>
+                        
+                        </div>
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
         
     </main>
 
