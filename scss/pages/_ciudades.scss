@@ -1,6 +1,11 @@
 main{
+    h1{
+        padding: 10px 0;
+        font-weight: bolder;
+    }
     p{
-
+        margin: 0 15px;
+        font-size: 18px
     }
     .city-container{
         border: 4px solid $principal-color;
@@ -14,6 +19,7 @@ main{
             h2{
                 color: $principal-color;
                 font-weight: bolder;
+                padding: 20px 0px
             }
         }
         .city-container2{
@@ -30,11 +36,14 @@ main{
             }
             .city-right{
                 @include flex-center(column);
+                h3{
+                    color: $principal-color;
+                    font-weight: bolder;
+                }
                 .act-buttons{
                     display: flex;
                     flex-direction: column;
                     ul{
-                        
                         i{
                             color: orange;
                             padding-right: 15px;
@@ -44,5 +53,43 @@ main{
             }
         }
         
+    }
+
+    @include mq-desktop{
+        p{
+            padding: 15px 0;
+        }
+        .city-container{
+            .city-container2{
+                @include flex-center(row);
+                justify-content: space-evenly;
+                flex-wrap: nowrap;
+                padding: 0px 5px;
+                .city-left{
+                    padding: 0px 30px;
+                    .foto-ciudad{
+                        width: 400px;
+                        height: 300px;
+                    }
+                }
+                .city-right{
+                    h3{
+                        align-self: center;
+                        padding: 20px 0;
+                    }
+                    p{
+                        padding: 20px 0;
+                        max-width: 75%;
+                        font-weight: 500;
+                        
+                    }
+                    @include flex-center(column);
+                    justify-content: space-around;
+                    .act-buttons{
+
+                    }
+                }
+            }
+        }
     }
 }

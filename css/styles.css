@@ -386,6 +386,14 @@ section .card-container {
   }
 }
 
+main h1 {
+  padding: 10px 0;
+  font-weight: bolder;
+}
+main p {
+  margin: 0 15px;
+  font-size: 18px;
+}
 main .city-container {
   border: 4px solid #d74f4f;
   border-radius: 10px;
@@ -401,6 +409,7 @@ main .city-container {
 main .city-container div h2 {
   color: #d74f4f;
   font-weight: bolder;
+  padding: 20px 0px;
 }
 main .city-container .city-container2 {
   display: flex;
@@ -427,6 +436,10 @@ main .city-container .city-container2 .city-right {
   justify-content: center;
   align-items: center;
 }
+main .city-container .city-container2 .city-right h3 {
+  color: #d74f4f;
+  font-weight: bolder;
+}
 main .city-container .city-container2 .city-right .act-buttons {
   display: flex;
   flex-direction: column;
@@ -434,6 +447,43 @@ main .city-container .city-container2 .city-right .act-buttons {
 main .city-container .city-container2 .city-right .act-buttons ul i {
   color: orange;
   padding-right: 15px;
+}
+@media (min-width: 1024px) {
+  main p {
+    padding: 15px 0;
+  }
+  main .city-container .city-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding: 0px 5px;
+  }
+  main .city-container .city-container2 .city-left {
+    padding: 0px 30px;
+  }
+  main .city-container .city-container2 .city-left .foto-ciudad {
+    width: 400px;
+    height: 300px;
+  }
+  main .city-container .city-container2 .city-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  main .city-container .city-container2 .city-right h3 {
+    align-self: center;
+    padding: 20px 0;
+  }
+  main .city-container .city-container2 .city-right p {
+    padding: 20px 0;
+    max-width: 75%;
+    font-weight: 500;
+  }
 }
 
 main h1 {
