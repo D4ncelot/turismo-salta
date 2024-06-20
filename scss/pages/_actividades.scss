@@ -1,0 +1,68 @@
+main{
+    .cards{
+        @include flex-center(column);
+        .act-container{
+            @include flex-center(column);
+            border: 5px solid $principal-color;
+            border-radius: 20px;
+            padding: 15px 5px;
+            margin: 15px 10px;
+            background-color: #F9FCF1;
+            .act-img{
+               width: 80vw;
+               border-radius: 5px;
+            }
+            h4{
+                margin: 15px 0;
+                color: $principal-color;
+                font-weight: 700;
+            }
+        }
+
+    }
+
+    @include mq-tablet{
+        .cards{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+            .act-container{
+                @include flex-center(column);
+                width: 45vw;
+                .act-img{
+                   width: 40vw;
+                   border-radius: 5px;
+                }
+                h4{
+                    margin: 15px 0;
+                    color: $principal-color;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    @include mq-desktop{
+        .cards{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            
+            .act-container{
+                @include flex-center(column);
+                width: 30vw;
+                .act-img{
+                   width: 25vw;
+                   border-radius: 5px;
+                }
+                h4{
+                    margin: 15px 0;
+                    color: $principal-color;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+    
+}
