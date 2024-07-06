@@ -80,7 +80,7 @@ footer{
         }
     }
     @include mq-tablet{
-        background-color: $principal-color;
+        // background-color: $principal-color;
         display: flex;
         justify-content: space-around;
         align-items: center;

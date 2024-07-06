@@ -208,7 +208,6 @@ footer .footer-right ul li a .bi-inbox {
 }
 @media (min-width: 768px) {
   footer {
-    background-color: #d74f4f;
     display: flex;
     justify-content: space-around;
     align-items: center;
