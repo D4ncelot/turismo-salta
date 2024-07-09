@@ -25,7 +25,6 @@ a {
 .main-button:hover {
   background-color: whitesmoke;
   border: 3px solid #d74f4f;
-  font-size: 17px;
   color: crimson;
 }
 
@@ -789,7 +788,7 @@ main .lug-container .r-container iframe {
   margin: 20px;
 }
 .form-page .form-container {
-  max-width: 160vh;
+  max-width: 100vw;
   padding: 0px 50px 0 40px;
 }
 .form-page .form-container .form-check {
@@ -810,6 +809,7 @@ main .lug-container .r-container iframe {
     align-items: center;
   }
   .form-page .form-container {
+    max-width: 80vw;
     width: 100%;
   }
 }
