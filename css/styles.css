@@ -253,9 +253,15 @@ main .principal-page .principal-desk .principal-right .principal-sub {
   }
 }
 @media (min-width: 1024px) {
+  main {
+    overflow-y: hidden;
+  }
   main .principal-page {
     display: flex;
     flex: 1 1 0;
+  }
+  main .principal-page .principal-caruselmob {
+    max-width: 60vw;
   }
   main .principal-page .principal-caruselmob #carouselExampleAutoplaying .carousel-inner .carousel-item img {
     width: 60vw !important;

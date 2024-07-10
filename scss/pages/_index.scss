@@ -1,5 +1,5 @@
 main{
-    .principal-page{
+    .principal-page{   
         .principal-caruselmob{
             #carouselExampleAutoplaying{
                 .carousel-inner{
@@ -43,10 +43,13 @@ main{
     }
 
     @include mq-desktop{
+        overflow-y: hidden;
         .principal-page{
             display: flex;
             flex: 1 1 0;
+            
             .principal-caruselmob{
+                max-width: 60vw;
                 #carouselExampleAutoplaying{
                     .carousel-inner{
                         .carousel-item{
