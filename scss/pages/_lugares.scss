@@ -1,4 +1,5 @@
 main{
+    overflow-x: hidden;
     .titulo-lugar{
         display: flex;
         flex-direction: column;
@@ -23,7 +24,6 @@ main{
         border: 2px red dashed;
         margin: 0 5px 15px 0;
         background-color: #F9FCF1;
-        transform: none;
         .l-container{
             display: Flex;
             flex-direction: column;

@@ -388,6 +388,9 @@ section .card-container {
   }
 }
 
+main {
+  overflow-x: hidden;
+}
 main h1 {
   padding: 10px 0;
   font-weight: bolder;
@@ -678,6 +681,9 @@ main .hot-container .hotel-sub-container2 p {
   }
 }
 
+main {
+  overflow-x: hidden;
+}
 main .titulo-lugar {
   display: flex;
   flex-direction: column;
@@ -702,7 +708,6 @@ main .lug-container {
   border: 2px red dashed;
   margin: 0 5px 15px 0;
   background-color: #F9FCF1;
-  transform: none;
 }
 main .lug-container .l-container {
   display: Flex;
