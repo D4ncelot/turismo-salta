@@ -21,8 +21,9 @@ main{
         justify-content: center;
         align-items: center;
         border: 2px red dashed;
-        margin: 10px 20px;
+        margin: 0 5px 15px 0;
         background-color: #F9FCF1;
+        transform: none;
         .l-container{
             display: Flex;
             flex-direction: column;
@@ -99,6 +100,20 @@ main{
             }
         }
     }
+
+    @include mq-tablet{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        .lug-container{
+            // max-width: 90%;
+            margin: 10px 20px;
+            transform: none;
+        }
+    }
+
     @include mq-desktop{
         display: flex;
         flex-direction: row;
@@ -108,6 +123,7 @@ main{
         .lug-container{
             justify-content: flex-start;
             width: 45%;
+            margin: 0 15px 20px 0;
             .l-container{
                 .carusel-turismo{
                     #carouselExampleAutoplaying{
