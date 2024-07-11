@@ -36,10 +36,14 @@ main{
                 }
             }
             .city-right{
+                margin: 10px 0;
                 @include flex-center(column);
                 h3{
                     color: $principal-color;
                     font-weight: bolder;
+                }
+                p{
+                    margin-bottom: 10px;
                 }
                 .act-buttons{
                     display: flex;
@@ -54,6 +58,20 @@ main{
             }
         }
         
+    }
+
+    @include mq-tablet{
+        .city-container{
+            .city-container2{
+                .city-right{
+                    margin-top: 5px;
+                    margin-bottom: 20px;
+                    p{
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
     }
 
     @include mq-desktop{
@@ -86,9 +104,9 @@ main{
                     }
                     @include flex-center(column);
                     justify-content: space-around;
-                    .act-buttons{
+                    // .act-buttons{
 
-                    }
+                    // }
                 }
             }
         }

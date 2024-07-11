@@ -442,6 +442,7 @@ main .city-container .city-container2 .city-left iframe {
   padding-bottom: 10px;
 }
 main .city-container .city-container2 .city-right {
+  margin: 10px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -451,6 +452,9 @@ main .city-container .city-container2 .city-right h3, main .city-container .city
   color: #d74f4f;
   font-weight: bolder;
 }
+main .city-container .city-container2 .city-right p {
+  margin-bottom: 10px;
+}
 main .city-container .city-container2 .city-right .act-buttons {
   display: flex;
   flex-direction: column;
@@ -458,6 +462,15 @@ main .city-container .city-container2 .city-right .act-buttons {
 main .city-container .city-container2 .city-right .act-buttons ul i {
   color: orange;
   padding-right: 15px;
+}
+@media (min-width: 768px) {
+  main .city-container .city-container2 .city-right {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  main .city-container .city-container2 .city-right p {
+    margin-bottom: 5px;
+  }
 }
 @media (min-width: 1024px) {
   main p {
