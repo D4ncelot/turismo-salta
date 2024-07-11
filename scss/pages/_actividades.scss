@@ -1,4 +1,5 @@
 main{
+    overflow-x: hidden;
     .actividades-titulo{
         p{
             font-weight: bolder;
@@ -27,6 +28,7 @@ main{
     }
 
     @include mq-tablet{
+        overflow-x: hidden;
         .cards{
             display: flex;
             flex-direction: row;
