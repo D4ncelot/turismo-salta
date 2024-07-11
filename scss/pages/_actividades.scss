@@ -1,4 +1,9 @@
 main{
+    .actividades-titulo{
+        p{
+            font-weight: bolder;
+        }
+    }
     .cards{
         @include flex-center(column);
         .act-container{
@@ -51,7 +56,7 @@ main{
             
             .act-container{
                 @include flex-center(column);
-                width: 30vw;
+                width: 25vw;
                 .act-img{
                    width: 25vw;
                    border-radius: 5px;

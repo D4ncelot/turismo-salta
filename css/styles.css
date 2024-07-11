@@ -404,6 +404,7 @@ main h1 {
 main p {
   margin: 0 15px;
   font-size: 18px;
+  font-weight: bolder;
 }
 main .city-container {
   border: 4px solid #d74f4f;
@@ -510,6 +511,9 @@ main .city-container .city-container2 .city-right .act-buttons ul i {
   }
 }
 
+main .actividades-titulo p {
+  font-weight: bolder;
+}
 main .cards {
   display: flex;
   flex-direction: column;
@@ -570,7 +574,7 @@ main .cards .act-container h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30vw;
+    width: 25vw;
   }
   main .cards .act-container .act-img {
     width: 25vw;
