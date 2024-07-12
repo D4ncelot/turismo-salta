@@ -34,13 +34,14 @@ main{
                 color: $principal-color;
             }
             .carusel-turismo{
+                max-width: 70vw;
                 #carouselExampleAutoplaying{
                     .carousel-inner{
                         .carousel-item{
                             img{
-                                width: 100vw;
+                                width: 70vw;
                                 max-width: 100%;
-                                height: 270px;
+                                height: 300px;
                             }
                         }
                     }
@@ -49,7 +50,7 @@ main{
                     .carousel-inner{
                         .carousel-item{
                             img{
-                                width: 100vw;
+                                width: 60vw;
                                 max-width: 100%;
                                 height: 270px;
                             }
@@ -60,7 +61,7 @@ main{
                     .carousel-inner{
                         .carousel-item{
                             img{
-                                width: 100vw;
+                                width: 60vw;
                                 max-width: 100%;
                                 height: 270px;
                             }
@@ -71,7 +72,7 @@ main{
                     .carousel-inner{
                         .carousel-item{
                             img{
-                                width: 100vw;
+                                width: 60vw;
                                 max-width: 100%;
                                 height: 270px;
                             }

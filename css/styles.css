@@ -766,23 +766,26 @@ main .lug-container .l-container h2, main .lug-container .l-container .hot-conta
   font-weight: bolder;
   color: #d74f4f;
 }
+main .lug-container .l-container .carusel-turismo {
+  max-width: 70vw;
+}
 main .lug-container .l-container .carusel-turismo #carouselExampleAutoplaying .carousel-inner .carousel-item img {
-  width: 100vw;
+  width: 70vw;
   max-width: 100%;
-  height: 270px;
+  height: 300px;
 }
 main .lug-container .l-container .carusel-turismo #carouselExampleAutoplaying2 .carousel-inner .carousel-item img {
-  width: 100vw;
+  width: 60vw;
   max-width: 100%;
   height: 270px;
 }
 main .lug-container .l-container .carusel-turismo #carouselExampleAutoplaying3 .carousel-inner .carousel-item img {
-  width: 100vw;
+  width: 60vw;
   max-width: 100%;
   height: 270px;
 }
 main .lug-container .l-container .carusel-turismo #carouselExampleAutoplaying4 .carousel-inner .carousel-item img {
-  width: 100vw;
+  width: 60vw;
   max-width: 100%;
   height: 270px;
 }
