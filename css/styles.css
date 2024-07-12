@@ -513,6 +513,7 @@ main .city-container .city-container2 .city-right .act-buttons ul i {
 
 main {
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 main .actividades-titulo p {
   font-weight: bolder;
@@ -545,7 +546,7 @@ main .cards .act-container h4 {
 }
 @media (min-width: 768px) {
   main {
-    overflow-x: hidden;
+    overflow-y: hidden;
   }
   main .cards {
     display: flex;
